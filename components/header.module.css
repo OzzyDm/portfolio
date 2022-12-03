@@ -1,0 +1,40 @@
+.header {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(110, 112, 112, 0.8),
+      rgba(123, 129, 129, 0.8)
+    ),
+    url(../img/header.jpg);
+  background-position: unset;
+  background-size: cover;
+  object-fit: fill;
+  height: 85vh;
+  display: block;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
+
+.name {
+  font-size: 5rem;
+  text-align: center;
+  padding-top: 30rem;
+  color: #fff;
+  animation-name: moveInRight 4s;
+}
+
+.first {
+  color: #fff;
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  80% {
+    transform: translateX(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
