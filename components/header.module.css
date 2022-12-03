@@ -14,24 +14,70 @@
 }
 
 .name {
-  font-size: 5rem;
+  font-size: 8rem;
   text-align: center;
   padding-top: 30rem;
   color: #fff;
-  animation-name: moveInRight 4s;
+  -webkit-text-stroke: 0.2px black;
+}
+
+.hello {
+  animation-name: moveDown;
+  animation-duration: 1s;
+}
+
+.first,
+.second {
+  font-size: 5rem;
 }
 
 .first {
-  color: #fff;
+  animation-name: moveLeft;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
 }
 
-@keyframes moveInRight {
+.second {
+  animation-name: moveRight;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveDown {
   0% {
     opacity: 0;
-    transform: translateX(-10rem);
+    transform: translatey(-10rem);
   }
   80% {
-    transform: translateX(1rem);
+    transform: translatey(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveLeft {
+  0% {
+    opacity: 0;
+    transform: translatex(-10rem);
+  }
+  80% {
+    transform: translatex(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveRight {
+  0% {
+    opacity: 0;
+    transform: translatex(10rem);
+  }
+  80% {
+    transform: translatex(-1rem);
   }
   100% {
     opacity: 1;
