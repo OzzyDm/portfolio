@@ -1,18 +1,22 @@
 .nav {
   font-size: 3rem;
-  display: flex;
-  justify-content: center;
   padding: 1.5rem;
+  position: absolute;
+  z-index: 10;
+  color: #fff;
+  left: 33%;
+  transition: all 0.2s;
 }
 
 .link {
-  margin-left: 8rem;
+  margin-left: 7rem;
   cursor: pointer;
   transition: all 0.2s;
   font-size: 3rem;
 }
 
 .link:hover {
+  border-bottom: 1px solid #fff;
   transform: scale(1.2);
 }
 
