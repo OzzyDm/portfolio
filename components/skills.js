@@ -10,7 +10,9 @@ function Skills() {
 
   return (
     <div className={classes.container}>
-      <h2 className={classes.title}>Skills</h2>
+      <h2 className={classes.title} data-aos="fade-up">
+        Skills
+      </h2>
       <div className={classes.skills}>
         <img
           src="images/html.png"
@@ -44,12 +46,12 @@ function Skills() {
           data-aos="fade-up"
           className={classes.logo}
         />
-        <img src="images/git.png" data-aos="fade-up" className={classes.logo} />
         <img
           src="images/Expressjs.png"
           data-aos="fade-up"
           className={classes.logo}
         />
+        <img src="images/git.png" data-aos="fade-up" className={classes.logo} />
       </div>
     </div>
   );
