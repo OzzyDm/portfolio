@@ -1,0 +1,20 @@
+.title {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.skills {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, min-content);
+  grid-template-rows: repeat(2, min-content);
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 15rem;
+  height: 15rem;
+  padding: 1rem;
+  margin: 5rem;
+}
