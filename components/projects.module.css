@@ -7,18 +7,20 @@
     url(../public/images/projects.jpg);
   background-position: center;
   background-size: cover;
-  clip-path: polygon(0 10%, 100% 0, 100% 75%, 0% 100%);
+  clip-path: polygon(0 10%, 100% 0, 100% 75%, 0% 85%);
   height: 200vh;
 }
 
 .title {
   color: #fff;
   text-align: center;
-  padding-top: 20rem;
+  padding-top: 25rem;
+  padding-bottom: 5rem;
   font-size: 5rem;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1rem;
+  text-shadow: 0.4rem 0.4rem black;
 }
 
 .projects {
