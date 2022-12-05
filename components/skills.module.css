@@ -6,8 +6,8 @@
 .skills {
   margin-top: 5rem;
   display: grid;
-  grid-template-columns: repeat(4, min-content);
-  grid-template-rows: repeat(2, min-content);
+  grid-template-columns: repeat(5, max-content);
+  grid-template-rows: repeat(2, max-content);
   align-items: center;
   justify-content: center;
 }

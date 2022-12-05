@@ -30,6 +30,11 @@ function Skills() {
           className={classes.logo}
         />
         <img
+          src="images/sass.png"
+          data-aos="fade-up"
+          className={classes.logo}
+        />
+        <img
           src="images/node.png"
           data-aos="fade-up"
           className={classes.logo}
@@ -40,6 +45,11 @@ function Skills() {
           className={classes.logo}
         />
         <img src="images/git.png" data-aos="fade-up" className={classes.logo} />
+        <img
+          src="images/Expressjs.png"
+          data-aos="fade-up"
+          className={classes.logo}
+        />
       </div>
     </div>
   );
