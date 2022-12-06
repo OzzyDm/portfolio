@@ -1,0 +1,36 @@
+.title {
+  text-align: center;
+  margin-top: -30rem;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+.form {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  width: 25%;
+}
+
+.btn {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  transition: transform 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-0.25em);
+}
