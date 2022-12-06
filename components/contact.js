@@ -21,7 +21,7 @@ function Contact() {
           <label htmlFor="name" className={classes.label}>
             Message
           </label>
-          <textarea className={classes.input}></textarea>
+          <textarea className={classes.input} rows="5"></textarea>
           <button className={classes.btn} onClick={submitHandler}>
             Send Message
           </button>

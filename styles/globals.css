@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  background-color: rgb(226, 222, 222);
+}
+
 html {
   font-size: 62.5%;
 }

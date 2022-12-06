@@ -2,6 +2,7 @@ import classes from "./projects.module.css";
 import "aos/dist/aos.css";
 import Aos from "aos";
 import { useEffect } from "react";
+import { FaGithub } from "react-icons/fa";
 
 function Projects() {
   useEffect(() => {
@@ -22,7 +23,9 @@ function Projects() {
           </p>
           <div className={classes.info}>
             <p>html css</p>
-            <a>git</a>
+            <a>
+              <FaGithub />
+            </a>
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
@@ -34,7 +37,9 @@ function Projects() {
           </p>
           <div className={classes.info}>
             <p>html css</p>
-            <a>git</a>
+            <a>
+              <FaGithub />
+            </a>
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
@@ -46,7 +51,9 @@ function Projects() {
           </p>
           <div className={classes.info}>
             <p>html css</p>
-            <a>git</a>
+            <a>
+              <FaGithub />
+            </a>
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
@@ -58,7 +65,9 @@ function Projects() {
           </p>
           <div className={classes.info}>
             <p>html css</p>
-            <a>git</a>
+            <a>
+              <FaGithub />
+            </a>
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
@@ -70,7 +79,9 @@ function Projects() {
           </p>
           <div className={classes.info}>
             <p>html css</p>
-            <a>git</a>
+            <a>
+              <FaGithub />
+            </a>
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
@@ -82,7 +93,9 @@ function Projects() {
           </p>
           <div className={classes.info}>
             <p>html css</p>
-            <a>git</a>
+            <a>
+              <FaGithub />
+            </a>
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
@@ -94,7 +107,9 @@ function Projects() {
           </p>
           <div className={classes.info}>
             <p>html css</p>
-            <a>git</a>
+            <a>
+              <FaGithub />
+            </a>
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
@@ -106,7 +121,9 @@ function Projects() {
           </p>
           <div className={classes.info}>
             <p>html css</p>
-            <a>git</a>
+            <a>
+              <FaGithub />
+            </a>
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
@@ -118,7 +135,9 @@ function Projects() {
           </p>
           <div className={classes.info}>
             <p>html css</p>
-            <a>git</a>
+            <a>
+              <FaGithub />
+            </a>
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
@@ -130,7 +149,9 @@ function Projects() {
           </p>
           <div className={classes.info}>
             <p>html css</p>
-            <a>git</a>
+            <a>
+              <FaGithub />
+            </a>
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
@@ -142,7 +163,9 @@ function Projects() {
           </p>
           <div className={classes.info}>
             <p>html css</p>
-            <a>git</a>
+            <a>
+              <FaGithub />
+            </a>
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
@@ -154,7 +177,9 @@ function Projects() {
           </p>
           <div className={classes.info}>
             <p>html css</p>
-            <a>git</a>
+            <a>
+              <FaGithub />
+            </a>
           </div>
         </div>
       </div>

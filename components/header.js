@@ -10,9 +10,7 @@ function Header() {
         <div className={classes.name}>
           <h1 className={classes.hello}>Hello!</h1>
           <h2 className={classes.first}>I'm Oguzhan Demiraslan.</h2>
-          <h2 className={classes.second}>
-            I'm a front-end web developer in Canada.
-          </h2>
+          <h2 className={classes.second}>I'm a front-end web developer.</h2>
         </div>
       </div>
     </Fragment>
