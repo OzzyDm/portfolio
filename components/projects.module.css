@@ -63,3 +63,10 @@
   padding-left: 1rem;
   margin-bottom: 1rem;
 }
+
+.git {
+  color: black;
+}
+.git:hover {
+  transform: scale(1.2);
+}

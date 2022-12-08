@@ -22,8 +22,12 @@ function Projects() {
             lsadkfjlaksd jlafdksjlkj
           </p>
           <div className={classes.info}>
-            <p>html css</p>
-            <a>
+            <p>React Next.js</p>
+            <a
+              href="https://github.com/OzzyDm/portfolio"
+              target="_blank"
+              className={classes.git}
+            >
               <FaGithub />
             </a>
           </div>
@@ -36,8 +40,12 @@ function Projects() {
             lsadkfjlaksd jlafdksjlkj
           </p>
           <div className={classes.info}>
-            <p>html css</p>
-            <a>
+            <p>Node.js Express MongoDB</p>
+            <a
+              href="https://github.com/OzzyDm/YelpCamp"
+              target="_blank"
+              className={classes.git}
+            >
               <FaGithub />
             </a>
           </div>
@@ -50,8 +58,12 @@ function Projects() {
             lsadkfjlaksd jlafdksjlkj
           </p>
           <div className={classes.info}>
-            <p>html css</p>
-            <a>
+            <p>Express Node.js</p>
+            <a
+              href="https://github.com/OzzyDm/WeatherApp"
+              target="_blank"
+              className={classes.git}
+            >
               <FaGithub />
             </a>
           </div>
@@ -64,22 +76,12 @@ function Projects() {
             lsadkfjlaksd jlafdksjlkj
           </p>
           <div className={classes.info}>
-            <p>html css</p>
-            <a>
-              <FaGithub />
-            </a>
-          </div>
-        </div>
-        <div className={classes.project} data-aos="fade-up">
-          <img className={classes.image} src="images/header.jpg"></img>
-          <h3 className={classes.h3}>Expense Tracker</h3>
-          <p className={classes.desc}>
-            lorem lf;dksa;las asdlkflasdkf ajskldfjas jflasdkfj lasdkfj
-            lsadkfjlaksd jlafdksjlkj
-          </p>
-          <div className={classes.info}>
-            <p>html css</p>
-            <a>
+            <p>React</p>
+            <a
+              href="https://github.com/OzzyDm/expense-tracker"
+              target="_blank"
+              className={classes.git}
+            >
               <FaGithub />
             </a>
           </div>
@@ -92,8 +94,12 @@ function Projects() {
             lsadkfjlaksd jlafdksjlkj
           </p>
           <div className={classes.info}>
-            <p>html css</p>
-            <a>
+            <p>React Firebase</p>
+            <a
+              href="https://github.com/OzzyDm/food-order-app"
+              target="_blank"
+              className={classes.git}
+            >
               <FaGithub />
             </a>
           </div>
@@ -106,8 +112,12 @@ function Projects() {
             lsadkfjlaksd jlafdksjlkj
           </p>
           <div className={classes.info}>
-            <p>html css</p>
-            <a>
+            <p>React Firebase</p>
+            <a
+              href="https://github.com/OzzyDm/quotes-react-app"
+              target="_blank"
+              className={classes.git}
+            >
               <FaGithub />
             </a>
           </div>
@@ -120,8 +130,12 @@ function Projects() {
             lsadkfjlaksd jlafdksjlkj
           </p>
           <div className={classes.info}>
-            <p>html css</p>
-            <a>
+            <p>React Next.js MongoDB</p>
+            <a
+              href="https://github.com/OzzyDm/nextjs-meeting-app"
+              target="_blank"
+              className={classes.git}
+            >
               <FaGithub />
             </a>
           </div>
@@ -134,8 +148,12 @@ function Projects() {
             lsadkfjlaksd jlafdksjlkj
           </p>
           <div className={classes.info}>
-            <p>html css</p>
-            <a>
+            <p>Sass</p>
+            <a
+              href="https://github.com/OzzyDm/natural-tours-page"
+              target="_blank"
+              className={classes.git}
+            >
               <FaGithub />
             </a>
           </div>
@@ -148,8 +166,12 @@ function Projects() {
             lsadkfjlaksd jlafdksjlkj
           </p>
           <div className={classes.info}>
-            <p>html css</p>
-            <a>
+            <p>Sass</p>
+            <a
+              href="https://github.com/OzzyDm/trillo-booking-page"
+              target="_blank"
+              className={classes.git}
+            >
               <FaGithub />
             </a>
           </div>
@@ -162,8 +184,12 @@ function Projects() {
             lsadkfjlaksd jlafdksjlkj
           </p>
           <div className={classes.info}>
-            <p>html css</p>
-            <a>
+            <p>Sass</p>
+            <a
+              href="https://github.com/OzzyDm/nexter-page"
+              target="_blank"
+              className={classes.git}
+            >
               <FaGithub />
             </a>
           </div>
@@ -176,8 +202,12 @@ function Projects() {
             lsadkfjlaksd jlafdksjlkj
           </p>
           <div className={classes.info}>
-            <p>html css</p>
-            <a>
+            <p>Html Css</p>
+            <a
+              href="https://github.com/OzzyDm/Twitter-homepage-clone"
+              target="_blank"
+              className={classes.git}
+            >
               <FaGithub />
             </a>
           </div>

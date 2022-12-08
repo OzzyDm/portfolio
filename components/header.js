@@ -8,6 +8,7 @@ function Header() {
       <Layout />
       <div className={classes.header}>
         <div className={classes.name}>
+          <img src="images/header.jpg" className={classes.photo}></img>
           <h1 className={classes.hello}>Hello!</h1>
           <h2 className={classes.first}>I'm Oguzhan Demiraslan.</h2>
           <h2 className={classes.second}>I'm a front-end web developer.</h2>
