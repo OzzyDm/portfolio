@@ -7,7 +7,7 @@
     url(../public/images/projects.jpg);
   background-position: center;
   background-size: cover;
-  clip-path: polygon(0 10%, 100% 0, 100% 75%, 0% 85%);
+  clip-path: polygon(0 10%, 100% 0, 100% 83%, 0% 90%);
   height: 200vh;
 }
 
@@ -39,6 +39,9 @@
   border-radius: 2rem;
   border: 1px solid #fff;
   box-shadow: 0 1.5rem 4rem black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .image {
@@ -48,20 +51,25 @@
 .h3 {
   font-size: 3.5rem;
   padding-left: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 .info {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 1rem;
+  padding: 1rem;
   font-weight: 600;
   color: rgb(63, 62, 62);
 }
 
 .desc {
-  padding-left: 1rem;
+  padding: 1rem;
   margin-bottom: 1rem;
+}
+
+.tools {
+  font-weight: lighter;
+  font-size: 1.4rem;
 }
 
 .git {

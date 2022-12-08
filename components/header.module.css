@@ -28,6 +28,13 @@
   border-radius: 50%;
   animation-name: moveDown;
   animation-duration: 1s;
+  object-fit: cover;
+  border: 1px solid #fff;
+  transition: all 0.2s;
+}
+
+.photo:hover {
+  transform: translateY(-0.5rem);
 }
 
 .hello {
