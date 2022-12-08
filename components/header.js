@@ -6,7 +6,7 @@ function Header() {
   return (
     <Fragment>
       <Layout />
-      <div className={classes.header}>
+      <div className={classes.header} id="home">
         <div className={classes.name}>
           <img src="images/header.jpg" className={classes.photo}></img>
           <h1 className={classes.hello}>Hello!</h1>

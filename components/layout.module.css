@@ -13,6 +13,12 @@
   cursor: pointer;
   transition: all 0.2s;
   font-size: 3rem;
+  text-decoration: none;
+}
+
+.link:visited,
+.link:active {
+  color: #fff;
 }
 
 .link:hover {

@@ -1,6 +1,9 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import classes from "./contact.module.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Contact = () => {
   const form = useRef();
@@ -25,8 +28,12 @@ const Contact = () => {
       );
   };
 
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
-    <div>
+    <div data-aos="fade-up" id="contact">
       <h2 className={classes.title}>Contact Me</h2>
       <div className={classes.container}>
         <form ref={form} onSubmit={sendEmail} className={classes.form}>
@@ -57,6 +64,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      <div className={classes.copy}>Copyright &copy; Oguzhan Demiraslan</div>
     </div>
     // <form ref={form} onSubmit={sendEmail}>
     //   <label>Name</label>

@@ -9,7 +9,7 @@ function Skills() {
   }, []);
 
   return (
-    <div className={classes.container}>
+    <div className={classes.container} id="skills">
       <h2 className={classes.title} data-aos="fade-up">
         Skills
       </h2>

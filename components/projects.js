@@ -9,7 +9,7 @@ function Projects() {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div className={classes.container}>
+    <div className={classes.container} id="pro">
       <h2 className={classes.title} data-aos="fade-up">
         Projects
       </h2>
