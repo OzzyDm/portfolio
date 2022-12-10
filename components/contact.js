@@ -1,9 +1,8 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import classes from "./contact.module.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
 
 const Contact = () => {
   const form = useRef();
@@ -46,6 +45,7 @@ const Contact = () => {
             className={classes.input}
             name="user_name"
           />
+
           <label htmlFor="email" className={classes.label}>
             Email
           </label>
@@ -55,16 +55,17 @@ const Contact = () => {
             className={classes.input}
             name="user_email"
           />
+
           <label htmlFor="name" className={classes.label}>
             Message
           </label>
           <textarea className={classes.input} rows="5" name="message" />
+
           <button className={classes.btn} type="submit" value="Send">
             Send Message
           </button>
         </form>
       </div>
-      <div className={classes.copy}>Copyright &copy; Oguzhan Demiraslan</div>
     </div>
     // <form ref={form} onSubmit={sendEmail}>
     //   <label>Name</label>

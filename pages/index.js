@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import Contact from "../components/contact";
+import Footer from "../components/footer";
 import Header from "../components/header";
 import Projects from "../components/projects";
 import Skills from "../components/skills";
@@ -11,6 +12,7 @@ function HomePage() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </Fragment>
   );
 }

@@ -41,11 +41,3 @@
   transform: translateY(-0.25em);
   cursor: pointer;
 }
-
-.copy {
-  text-align: center;
-  font-size: 2rem;
-  padding: 1em 0;
-  background-color: rgb(36, 36, 36);
-  color: #fff;
-}
