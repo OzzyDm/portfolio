@@ -23,7 +23,7 @@
 
 .link:hover {
   border-bottom: 1px solid #fff;
-  transform: scale(1.2);
+  font-size: 3.4rem;
 }
 
 .icon {
