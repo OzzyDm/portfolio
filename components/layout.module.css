@@ -4,7 +4,8 @@
   position: absolute;
   z-index: 10;
   color: #fff;
-  left: 33%;
+  top: 0;
+  /* left: 33%; */
   transition: all 0.2s;
 }
 

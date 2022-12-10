@@ -7,10 +7,16 @@
 }
 
 body {
-  background-color: rgb(226, 222, 222);
+  background-color: rgb(207, 206, 205);
   font-family: "Open Sans", cursive;
 }
 
 html {
   font-size: 62.5%;
+}
+
+#__next {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }

@@ -56,7 +56,7 @@ const Contact = () => {
             name="user_email"
             required
           />
-          <label htmlFor="name" className={classes.label}>
+          <label htmlFor="message" className={classes.label}>
             Message
           </label>
           <textarea

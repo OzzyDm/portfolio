@@ -16,7 +16,7 @@ function Projects() {
       <div className={classes.projects}>
         <div className={classes.project} data-aos="fade-up">
           <a href="https://github.com/OzzyDm/portfolio" target="_blank">
-            <img className={classes.image} src="images/header.jpg"></img>
+            <img className={classes.image} src="images/port.png"></img>
           </a>
           <h3 className={classes.h3}>Portfolio Page</h3>
           <p className={classes.desc}>

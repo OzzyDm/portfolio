@@ -3,6 +3,7 @@
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1rem;
+  margin-top: 6rem;
 }
 
 .skills {
@@ -12,11 +13,14 @@
   grid-template-rows: repeat(2, max-content);
   align-items: center;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 
 .logo {
-  width: 15rem;
+  display: inline-block;
   height: 15rem;
   padding: 1rem;
   margin: 5rem;
+  border-radius: 3rem;
+  text-align: center;
 }

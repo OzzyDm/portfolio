@@ -1,4 +1,5 @@
 .header {
+  width: 100%;
   background-image: linear-gradient(
       to right bottom,
       rgba(51, 51, 51, 0.8),
@@ -17,7 +18,7 @@
 .name {
   font-size: 8rem;
   text-align: center;
-  padding-top: 30rem;
+  padding-top: 14%;
   color: #fff;
   text-shadow: 0.8rem 0.4rem black;
 }
