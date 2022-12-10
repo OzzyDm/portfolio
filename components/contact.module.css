@@ -1,3 +1,7 @@
+.contact {
+  width: 100%;
+}
+
 .title {
   text-align: center;
   margin-top: -25rem;
@@ -13,6 +17,7 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 5rem;
+  width: 100%;
 }
 
 .label {
@@ -23,12 +28,12 @@
 .input {
   margin-bottom: 2rem;
   font-size: 2rem;
-  width: 30%;
   background-color: rgb(36, 36, 36);
   border-radius: 20px;
   color: #fff;
   padding: 0.3rem 1rem;
   border: none;
+  width: 100%;
 }
 
 .input:focus {
