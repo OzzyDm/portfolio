@@ -12,7 +12,11 @@ function Footer() {
         <a href="#" className={classes.icon}>
           <FaLinkedin />
         </a>
-        <a href="#" className={classes.icon}>
+        <a
+          href="https://github.com/OzzyDm"
+          target="_blank"
+          className={classes.icon}
+        >
           <FaGithub />
         </a>
       </div>

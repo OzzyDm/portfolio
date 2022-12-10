@@ -30,15 +30,29 @@
   border: none;
 }
 
+.input:focus {
+  background-color: rgb(75, 74, 74);
+}
+
 .btn {
   font-size: 2rem;
   padding: 1rem 2rem;
   border-radius: 5rem;
   transition: transform 0.2s;
   margin-top: 3rem;
+  box-shadow: 0 0.1rem 0.4rem;
 }
 
 .btn:hover {
   transform: translateY(-0.25em);
   cursor: pointer;
+  background-color: rgb(230, 230, 230);
+  box-shadow: 0 0.3rem 0.7rem;
+}
+
+.btn:active,
+.btn:focus {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(black, 0.2);
 }

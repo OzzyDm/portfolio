@@ -44,8 +44,8 @@ const Contact = () => {
             id="name"
             className={classes.input}
             name="user_name"
+            required
           />
-
           <label htmlFor="email" className={classes.label}>
             Email
           </label>
@@ -54,28 +54,23 @@ const Contact = () => {
             id="email"
             className={classes.input}
             name="user_email"
+            required
           />
-
           <label htmlFor="name" className={classes.label}>
             Message
           </label>
-          <textarea className={classes.input} rows="5" name="message" />
-
+          <textarea
+            className={classes.input}
+            rows="5"
+            name="message"
+            required
+          />
           <button className={classes.btn} type="submit" value="Send">
             Send Message
           </button>
         </form>
       </div>
     </div>
-    // <form ref={form} onSubmit={sendEmail}>
-    //   <label>Name</label>
-    //   <input type="text" name="user_name" />
-    //   <label>Email</label>
-    //   <input type="email" name="user_email" />
-    //   <label>Message</label>
-    //   <textarea name="message" />
-    //   <input type="submit" value="Send" />
-    // </form>
   );
 };
 
