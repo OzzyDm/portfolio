@@ -32,3 +32,9 @@
   font-size: 2rem;
   margin-right: 1rem;
 }
+
+@media screen and (max-width: 500px) {
+  .link {
+    font-size: 2rem;
+  }
+}

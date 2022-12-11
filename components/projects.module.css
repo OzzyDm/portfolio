@@ -45,6 +45,10 @@
   justify-content: space-between;
 }
 
+.project:hover {
+  transform: translateY(-3rem);
+}
+
 .image {
   width: 100%;
   transition: all 0.2s;
@@ -84,5 +88,92 @@
   transition: all 0.2s;
 }
 .git:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 1600px) {
+  .container {
+    height: 180vh;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .projects {
+    font-size: 2rem;
+  }
+
+  .h3 {
+    font-size: 2.55rem;
+  }
+
+  .project {
+    width: 35%;
+  }
+
+  .container {
+    height: 300vh;
+    clip-path: polygon(0 5%, 100% 0, 100% 85%, 0% 90%);
+  }
+}
+@media screen and (max-width: 800px) {
+  .projects {
+    font-size: 2.5rem;
+    display: flex;
+    padding: 6rem 6rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .h3 {
+    font-size: 2.55rem;
+    padding-left: 1rem;
+    margin: 1rem 0;
+  }
+
+  .project {
+    width: 70%;
+  }
+
+  .container {
+    height: 490vh;
+    clip-path: polygon(0 3%, 100% 0, 100% 88%, 0% 90%);
+  }
+}
+@media screen and (max-width: 600px) {
+  .projects {
+    font-size: 2.5rem;
+    display: flex;
+    padding: 6rem 6rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .h3 {
+    font-size: 2.55rem;
+    padding-left: 1rem;
+    margin: 1rem 0;
+  }
+
+  .project {
+    width: 70%;
+  }
+
+  .container {
+    height: 400vh;
+    clip-path: polygon(0 3%, 100% 0, 100% 88%, 0% 90%);
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    height: 425vh;
+  }
+}
+@media screen and (max-width: 400px), screen and (max-height: 700px) {
+  .container {
+    height: 550vh;
+  }
+}
+@media screen and (max-width: 400px), screen and (max-height: 850px) {
+  .container {
+    height: 430vh;
+  }
 }

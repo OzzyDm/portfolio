@@ -56,3 +56,21 @@
     transform: translateY(0);
   }
 }
+
+@media screen and (max-width: 1600px) {
+  .skills {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-template-rows: repeat(2, max-content);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .skills {
+    grid-template-columns: repeat(1, max-content);
+    grid-template-rows: repeat(2, max-content);
+  }
+}

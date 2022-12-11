@@ -18,7 +18,7 @@
 .name {
   font-size: 8rem;
   text-align: center;
-  padding-top: 14%;
+  padding-top: 10%;
   color: #fff;
   text-shadow: 0.8rem 0.4rem black;
 }
@@ -99,5 +99,23 @@
   100% {
     opacity: 1;
     transform: translate(0);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    height: 75vh;
+  }
+
+  .name {
+    padding-top: 40%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .name {
+    padding-top: 20%;
+  }
+  .header {
+    height: 85vh;
   }
 }
