@@ -36,7 +36,7 @@ function Projects() {
         </div>
         <div className={classes.project} data-aos="fade-up">
           <a href="https://github.com/OzzyDm/YelpCamp" target="_blank">
-            <img className={classes.image} src="images/header.jpg"></img>
+            <img className={classes.image} src="images/yelp.png"></img>
           </a>
           <h3 className={classes.h3}>Yelp Camp</h3>
           <p className={classes.desc}>
@@ -57,7 +57,7 @@ function Projects() {
         </div>
         <div className={classes.project} data-aos="fade-up">
           <a href="https://github.com/OzzyDm/WeatherApp" target="_blank">
-            <img className={classes.image} src="images/header.jpg"></img>
+            <img className={classes.image} src="images/weather.png"></img>
           </a>
           <h3 className={classes.h3}>WeatherApp</h3>
           <p className={classes.desc}>
@@ -77,7 +77,7 @@ function Projects() {
         </div>
         <div className={classes.project} data-aos="fade-up">
           <a href="https://github.com/OzzyDm/expense-tracker" target="_blank">
-            <img className={classes.image} src="images/header.jpg"></img>
+            <img className={classes.image} src="images/expense.png"></img>
           </a>
           <h3 className={classes.h3}>Expense Tracker</h3>
           <p className={classes.desc}>
@@ -98,7 +98,7 @@ function Projects() {
         </div>
         <div className={classes.project} data-aos="fade-up">
           <a href="https://github.com/OzzyDm/food-order-app" target="_blank">
-            <img className={classes.image} src="images/header.jpg"></img>
+            <img className={classes.image} src="images/foodapp.png"></img>
           </a>
           <h3 className={classes.h3}>Food Order App</h3>
           <p className={classes.desc}>
@@ -119,7 +119,7 @@ function Projects() {
         </div>
         <div className={classes.project} data-aos="fade-up">
           <a href="https://github.com/OzzyDm/quotes-react-app" target="_blank">
-            <img className={classes.image} src="images/header.jpg"></img>
+            <img className={classes.image} src="images/quotes.png"></img>
           </a>
           <h3 className={classes.h3}>Quotes</h3>
           <p className={classes.desc}>
@@ -143,7 +143,7 @@ function Projects() {
             href="https://github.com/OzzyDm/nextjs-meeting-app"
             target="_blank"
           >
-            <img className={classes.image} src="images/header.jpg"></img>
+            <img className={classes.image} src="images/meeting.png"></img>
           </a>
           <h3 className={classes.h3}>Meeting App</h3>
           <p className={classes.desc}>
@@ -166,7 +166,7 @@ function Projects() {
             href="https://github.com/OzzyDm/natural-tours-page"
             target="_blank"
           >
-            <img className={classes.image} src="images/header.jpg"></img>
+            <img className={classes.image} src="images/natours.png"></img>
           </a>
           <h3 className={classes.h3}>Natural Tours Page</h3>
           <p className={classes.desc}>
@@ -188,7 +188,7 @@ function Projects() {
             href="https://github.com/OzzyDm/trillo-booking-page"
             target="_blank"
           >
-            <img className={classes.image} src="images/header.jpg"></img>
+            <img className={classes.image} src="images/trillo.png"></img>
           </a>
           <h3 className={classes.h3}>Trillo Booking Page</h3>
           <p className={classes.desc}>
@@ -207,7 +207,7 @@ function Projects() {
         </div>
         <div className={classes.project} data-aos="fade-up">
           <a href="https://github.com/OzzyDm/nexter-page" target="_blank">
-            <img className={classes.image} src="images/header.jpg"></img>
+            <img className={classes.image} src="images/nexter.png"></img>
           </a>
           <h3 className={classes.h3}>Nexter Page</h3>
           <p className={classes.desc}>
@@ -229,7 +229,7 @@ function Projects() {
             href="https://github.com/OzzyDm/Twitter-homepage-clone"
             target="_blank"
           >
-            <img className={classes.image} src="images/header.jpg"></img>
+            <img className={classes.image} src="images/twitter.png"></img>
           </a>
           <h3 className={classes.h3}>Twitter Home Page Clone</h3>
           <p className={classes.desc}>
