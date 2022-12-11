@@ -22,5 +22,37 @@
   padding: 1rem;
   margin: 5rem;
   border-radius: 3rem;
+  justify-self: center;
+}
+
+.name {
+  margin-top: -5rem;
+  font-size: 2rem;
   text-align: center;
+  opacity: 0;
+}
+
+.center {
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.center:hover {
+  transform: scale(1.1);
+}
+.center:hover .name {
+  opacity: 1;
+  animation-name: moveUp;
+  animation-duration: 0.3s;
+}
+
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }

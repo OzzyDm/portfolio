@@ -14,44 +14,86 @@ function Skills() {
         Skills
       </h2>
       <div className={classes.skills}>
-        <img
-          src="images/html.png"
-          data-aos="fade-up"
-          className={classes.logo}
-        />
-        <img src="images/css.png" data-aos="fade-up" className={classes.logo} />
-        <img src="images/js.png" data-aos="fade-up" className={classes.logo} />
-        <img
-          src="images/react.png"
-          data-aos="fade-up"
-          className={classes.logo}
-        />
-        <img
-          src="images/nextjs.png"
-          data-aos="fade-up"
-          className={classes.logo}
-        />
-        <img
-          src="images/sass.png"
-          data-aos="fade-up"
-          className={classes.logo}
-        />
-        <img
-          src="images/node.png"
-          data-aos="fade-up"
-          className={classes.logo}
-        />
-        <img
-          src="images/mongo.png"
-          data-aos="fade-up"
-          className={classes.logo}
-        />
-        <img
-          src="images/Expressjs.png"
-          data-aos="fade-up"
-          className={classes.logo}
-        />
-        <img src="images/git.png" data-aos="fade-up" className={classes.logo} />
+        <div className={classes.center}>
+          <img
+            src="images/html.png"
+            data-aos="fade-up"
+            className={classes.logo}
+          />
+          <p className={classes.name}>HTML5</p>
+        </div>
+        <div className={classes.center}>
+          <img
+            src="images/css.png"
+            data-aos="fade-up"
+            className={classes.logo}
+          />
+          <p className={classes.name}>CSS</p>
+        </div>
+        <div className={classes.center}>
+          <img
+            src="images/js.png"
+            data-aos="fade-up"
+            className={classes.logo}
+          />
+          <p className={classes.name}>JavaScript</p>
+        </div>
+        <div className={classes.center}>
+          <img
+            src="images/react.png"
+            data-aos="fade-up"
+            className={classes.logo}
+          />
+          <p className={classes.name}>React</p>
+        </div>
+        <div className={classes.center}>
+          <img
+            src="images/nextjs.png"
+            data-aos="fade-up"
+            className={classes.logo}
+          />
+          <p className={classes.name}>Next.js</p>
+        </div>
+        <div className={classes.center}>
+          <img
+            src="images/sass.png"
+            data-aos="fade-up"
+            className={classes.logo}
+          />
+          <p className={classes.name}>Sass</p>
+        </div>
+        <div className={classes.center}>
+          <img
+            src="images/node.png"
+            data-aos="fade-up"
+            className={classes.logo}
+          />
+          <p className={classes.name}>Node.js</p>
+        </div>
+        <div className={classes.center}>
+          <img
+            src="images/mongo.png"
+            data-aos="fade-up"
+            className={classes.logo}
+          />
+          <p className={classes.name}>MongoDB</p>
+        </div>
+        <div className={classes.center}>
+          <img
+            src="images/git.png"
+            data-aos="fade-up"
+            className={classes.logo}
+          />
+          <p className={classes.name}>git</p>
+        </div>
+        <div className={classes.center}>
+          <img
+            src="images/Expressjs.png"
+            data-aos="fade-up"
+            className={classes.logo}
+          />
+          <p className={classes.name}>Express</p>
+        </div>
       </div>
     </div>
   );
