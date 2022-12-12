@@ -90,7 +90,7 @@ function Skills() {
           <img
             src="images/Expressjs.png"
             data-aos="fade-up"
-            className={classes.logo}
+            className={classes.express}
           />
           <p className={classes.name}>Express</p>
         </div>

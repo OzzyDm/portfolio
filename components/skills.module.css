@@ -24,6 +24,14 @@
   border-radius: 3rem;
   justify-self: center;
 }
+.express {
+  display: inline-block;
+  height: 10rem;
+  padding: 1rem;
+  margin: 5rem;
+  border-radius: 3rem;
+  justify-self: center;
+}
 
 .name {
   margin-top: -5rem;

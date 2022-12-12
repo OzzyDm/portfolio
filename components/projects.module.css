@@ -92,9 +92,9 @@
 }
 
 @media screen and (max-width: 1600px) {
-  .container {
+  /* .container {
     height: 180vh;
-  }
+  } */
 }
 @media screen and (max-width: 1200px) {
   .projects {
@@ -109,10 +109,10 @@
     width: 35%;
   }
 
-  .container {
+  /* .container {
     height: 300vh;
     clip-path: polygon(0 5%, 100% 0, 100% 85%, 0% 90%);
-  }
+  } */
 }
 @media screen and (max-width: 800px) {
   .projects {
@@ -133,10 +133,10 @@
     width: 70%;
   }
 
-  .container {
+  /* .container {
     height: 490vh;
     clip-path: polygon(0 3%, 100% 0, 100% 88%, 0% 90%);
-  }
+  } */
 }
 @media screen and (max-width: 600px) {
   .projects {
@@ -157,12 +157,12 @@
     width: 70%;
   }
 
-  .container {
+  /* .container {
     height: 400vh;
     clip-path: polygon(0 3%, 100% 0, 100% 88%, 0% 90%);
-  }
+  } */
 }
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   .container {
     height: 425vh;
   }
@@ -176,4 +176,4 @@
   .container {
     height: 430vh;
   }
-}
+} */
