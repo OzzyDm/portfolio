@@ -6,7 +6,11 @@ function Footer() {
   return (
     <Fragment>
       <div className={classes.social}>
-        <a href="#" className={classes.icon}>
+        <a
+          href="https://www.instagram.com/oguzhan.demiraslan/"
+          target="_blank"
+          className={classes.icon}
+        >
           <FaInstagram />
         </a>
         <a href="#" className={classes.icon}>

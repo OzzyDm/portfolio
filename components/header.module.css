@@ -11,12 +11,12 @@
   object-fit: fill;
   height: 100vh;
   display: block;
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
   position: relative;
 }
 
 .name {
-  font-size: 8rem;
+  font-size: 4.5rem;
   text-align: center;
   padding-top: 10%;
   color: #fff;
