@@ -26,7 +26,8 @@
 }
 .express {
   display: inline-block;
-  height: 10rem;
+  height: 15rem;
+  width: 25rem;
   padding: 1rem;
   margin: 5rem;
   border-radius: 3rem;

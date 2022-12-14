@@ -4,8 +4,7 @@
 
 .title {
   text-align: center;
-  margin-top: -25rem;
-  /* margin-top: 8rem; */
+  margin-top: 10rem;
   font-size: 4.5rem;
   text-transform: uppercase;
   letter-spacing: 1rem;
@@ -63,9 +62,9 @@
   box-shadow: 0 0.5rem 1rem rgba(black, 0.2);
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .title {
-    margin-top: -35rem;
+    margin-top: 35rem;
   }
 }
 @media screen and (max-width: 800px) {
@@ -81,4 +80,4 @@
   .title {
     margin-top: 90-rem;
   }
-}
+} */

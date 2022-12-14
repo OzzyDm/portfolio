@@ -7,15 +7,16 @@
     url(../public/images/projects.jpg);
   background-position: center;
   background-size: cover;
-  clip-path: polygon(0 10%, 100% 0, 100% 83%, 0% 90%);
-  height: 200vh;
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+  /* height: 200vh; */
+  padding-top: 12rem;
+  padding-bottom: 20rem;
 }
 
 .title {
   color: #fff;
   text-align: center;
-  padding-top: 8rem;
-  padding-top: 25rem;
+  padding-top: 12rem;
   padding-bottom: 5rem;
   font-size: 5rem;
   text-align: center;
@@ -91,12 +92,10 @@
   transform: scale(1.5);
 }
 
-@media screen and (max-width: 1600px) {
-  /* .container {
-    height: 180vh;
-  } */
-}
 @media screen and (max-width: 1200px) {
+  .container {
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+  }
   .projects {
     font-size: 2rem;
   }
@@ -108,13 +107,12 @@
   .project {
     width: 35%;
   }
-
-  /* .container {
-    height: 300vh;
-    clip-path: polygon(0 5%, 100% 0, 100% 85%, 0% 90%);
-  } */
 }
 @media screen and (max-width: 800px) {
+  .container {
+    clip-path: polygon(0 3%, 100% 0, 100% 98%, 0% 100%);
+  }
+
   .projects {
     font-size: 2.5rem;
     display: flex;
@@ -132,13 +130,11 @@
   .project {
     width: 70%;
   }
-
-  /* .container {
-    height: 490vh;
-    clip-path: polygon(0 3%, 100% 0, 100% 88%, 0% 90%);
-  } */
 }
 @media screen and (max-width: 600px) {
+  .container {
+    clip-path: polygon(0 3%, 100% 0, 100% 98%, 0% 100%);
+  }
   .projects {
     font-size: 2.5rem;
     display: flex;
@@ -156,24 +152,4 @@
   .project {
     width: 70%;
   }
-
-  /* .container {
-    height: 400vh;
-    clip-path: polygon(0 3%, 100% 0, 100% 88%, 0% 90%);
-  } */
 }
-/* @media screen and (max-width: 500px) {
-  .container {
-    height: 425vh;
-  }
-}
-@media screen and (max-width: 400px), screen and (max-height: 700px) {
-  .container {
-    height: 550vh;
-  }
-}
-@media screen and (max-width: 400px), screen and (max-height: 850px) {
-  .container {
-    height: 430vh;
-  }
-} */
