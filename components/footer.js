@@ -13,7 +13,11 @@ function Footer() {
         >
           <FaInstagram />
         </a>
-        <a href="#" className={classes.icon}>
+        <a
+          href="https://www.linkedin.com/in/oguzhan-demiraslan-27481625a/"
+          target="_blank"
+          className={classes.icon}
+        >
           <FaLinkedin />
         </a>
         <a
