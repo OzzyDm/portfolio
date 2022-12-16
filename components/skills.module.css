@@ -85,7 +85,7 @@
 }
 @media screen and (max-width: 800px) {
   .skills {
-    grid-template-columns: repeat(1, max-content);
-    grid-template-rows: repeat(2, max-content);
+    grid-template-columns: repeat(1, minmax(auto, 1fr));
+    grid-template-rows: repeat(2, minmax(auto, 1fr));
   }
 }
