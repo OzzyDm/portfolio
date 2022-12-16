@@ -60,6 +60,7 @@ const Contact = () => {
             Message
           </label>
           <textarea
+            id="message"
             className={classes.input}
             rows="5"
             name="message"

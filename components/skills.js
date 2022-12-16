@@ -19,6 +19,7 @@ function Skills() {
             src="images/html.png"
             data-aos="fade-up"
             className={classes.logo}
+            alt="html logo"
           />
           <p className={classes.name}>HTML5</p>
         </div>
@@ -27,6 +28,7 @@ function Skills() {
             src="images/css.png"
             data-aos="fade-up"
             className={classes.logo}
+            alt="css logo"
           />
           <p className={classes.name}>CSS</p>
         </div>
@@ -35,6 +37,7 @@ function Skills() {
             src="images/js.png"
             data-aos="fade-up"
             className={classes.logo}
+            alt="javascript logo"
           />
           <p className={classes.name}>JavaScript</p>
         </div>
@@ -43,6 +46,7 @@ function Skills() {
             src="images/react.png"
             data-aos="fade-up"
             className={classes.logo}
+            alt="react logo"
           />
           <p className={classes.name}>React</p>
         </div>
@@ -51,6 +55,7 @@ function Skills() {
             src="images/nextjs.png"
             data-aos="fade-up"
             className={classes.logo}
+            alt="nextjs logo"
           />
           <p className={classes.name}>Next.js</p>
         </div>
@@ -59,6 +64,7 @@ function Skills() {
             src="images/sass.png"
             data-aos="fade-up"
             className={classes.logo}
+            alt="sass logo"
           />
           <p className={classes.name}>Sass</p>
         </div>
@@ -67,6 +73,7 @@ function Skills() {
             src="images/node.png"
             data-aos="fade-up"
             className={classes.logo}
+            alt="nodejs logo"
           />
           <p className={classes.name}>Node.js</p>
         </div>
@@ -75,6 +82,7 @@ function Skills() {
             src="images/mongo.png"
             data-aos="fade-up"
             className={classes.logo}
+            alt="mongodb logo"
           />
           <p className={classes.name}>MongoDB</p>
         </div>
@@ -83,6 +91,7 @@ function Skills() {
             src="images/git.png"
             data-aos="fade-up"
             className={classes.logo}
+            alt="git logo"
           />
           <p className={classes.name}>git</p>
         </div>
@@ -91,6 +100,7 @@ function Skills() {
             src="images/Expressjs.png"
             data-aos="fade-up"
             className={classes.express}
+            alt="express logo"
           />
           <p className={classes.name}>Express</p>
         </div>

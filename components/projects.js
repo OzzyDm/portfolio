@@ -16,7 +16,11 @@ function Projects() {
       <div className={classes.projects}>
         <div className={classes.project} data-aos="fade-up">
           <a href="https://github.com/OzzyDm/portfolio" target="_blank">
-            <img className={classes.image} src="images/port.png"></img>
+            <img
+              className={classes.image}
+              src="images/port.png"
+              alt="project image"
+            ></img>
           </a>
           <h3 className={classes.h3}>Portfolio Page</h3>
           <p className={classes.desc}>
@@ -36,7 +40,11 @@ function Projects() {
         </div>
         <div className={classes.project} data-aos="fade-up">
           <a href="https://github.com/OzzyDm/YelpCamp" target="_blank">
-            <img className={classes.image} src="images/yelp.png"></img>
+            <img
+              className={classes.image}
+              src="images/yelp.png"
+              alt="project image"
+            ></img>
           </a>
           <h3 className={classes.h3}>Yelp Camp</h3>
           <p className={classes.desc}>
@@ -60,7 +68,11 @@ function Projects() {
             href="https://weatherapp-production-a338.up.railway.app/"
             target="_blank"
           >
-            <img className={classes.image} src="images/weather.png"></img>
+            <img
+              className={classes.image}
+              src="images/weather.png"
+              alt="project image"
+            ></img>
           </a>
           <h3 className={classes.h3}>WeatherApp</h3>
           <p className={classes.desc}>
@@ -92,7 +104,11 @@ function Projects() {
             href="https://glittery-pastelito-947428.netlify.app/"
             target="_blank"
           >
-            <img className={classes.image} src="images/expense.png"></img>
+            <img
+              className={classes.image}
+              src="images/expense.png"
+              alt="project image"
+            ></img>
           </a>
           <h3 className={classes.h3}>Expense Tracker</h3>
           <p className={classes.desc}>
@@ -125,7 +141,11 @@ function Projects() {
             href="https://starlit-entremet-ffb434.netlify.app/"
             target="_blank"
           >
-            <img className={classes.image} src="images/foodapp.png"></img>
+            <img
+              className={classes.image}
+              src="images/foodapp.png"
+              alt="project image"
+            ></img>
           </a>
           <h3 className={classes.h3}>Food Order App</h3>
           <p className={classes.desc}>
@@ -155,7 +175,11 @@ function Projects() {
         </div>
         <div className={classes.project} data-aos="fade-up">
           <a href="https://roaring-kitsune-ee4b68.netlify.app/" target="_blank">
-            <img className={classes.image} src="images/quotes.png"></img>
+            <img
+              className={classes.image}
+              src="images/quotes.png"
+              alt="project image"
+            ></img>
           </a>
           <h3 className={classes.h3}>Quotes</h3>
           <p className={classes.desc}>
@@ -188,7 +212,11 @@ function Projects() {
             href="https://github.com/OzzyDm/nextjs-meeting-app"
             target="_blank"
           >
-            <img className={classes.image} src="images/meeting.png"></img>
+            <img
+              className={classes.image}
+              src="images/meeting.png"
+              alt="project image"
+            ></img>
           </a>
           <h3 className={classes.h3}>Meeting App</h3>
           <p className={classes.desc}>
@@ -208,7 +236,11 @@ function Projects() {
         </div>
         <div className={classes.project} data-aos="fade-up">
           <a href="https://profound-dango-b6e469.netlify.app/" target="_blank">
-            <img className={classes.image} src="images/natours.png"></img>
+            <img
+              className={classes.image}
+              src="images/natours.png"
+              alt="project image"
+            ></img>
           </a>
           <h3 className={classes.h3}>Natural Tours Page</h3>
           <p className={classes.desc}>
@@ -238,7 +270,11 @@ function Projects() {
         </div>
         <div className={classes.project} data-aos="fade-up">
           <a href="https://creative-gelato-5dbd5e.netlify.app/" target="_blank">
-            <img className={classes.image} src="images/trillo.png"></img>
+            <img
+              className={classes.image}
+              src="images/trillo.png"
+              alt="project image"
+            ></img>
           </a>
           <h3 className={classes.h3}>Trillo Booking Page</h3>
           <p className={classes.desc}>
@@ -267,7 +303,11 @@ function Projects() {
         </div>
         <div className={classes.project} data-aos="fade-up">
           <a href="https://jazzy-strudel-e94da6.netlify.app/" target="_blank">
-            <img className={classes.image} src="images/nexter.png"></img>
+            <img
+              className={classes.image}
+              src="images/nexter.png"
+              alt="project image"
+            ></img>
           </a>
           <h3 className={classes.h3}>Nexter Page</h3>
           <p className={classes.desc}>
@@ -300,7 +340,11 @@ function Projects() {
             href="https://github.com/OzzyDm/Twitter-homepage-clone"
             target="_blank"
           >
-            <img className={classes.image} src="images/twitter.png"></img>
+            <img
+              className={classes.image}
+              src="images/twitter.png"
+              alt="project image"
+            ></img>
           </a>
           <h3 className={classes.h3}>Twitter Home Page Clone</h3>
           <p className={classes.desc}>
