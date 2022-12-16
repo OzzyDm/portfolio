@@ -19,6 +19,7 @@
 .logo {
   display: inline-block;
   height: 15rem;
+  width: 15rem;
   padding: 1rem;
   margin: 5rem;
   border-radius: 3rem;
@@ -27,7 +28,6 @@
 .express {
   display: inline-block;
   height: 15rem;
-  width: 25rem;
   padding: 1rem;
   margin: 5rem;
   border-radius: 3rem;
@@ -75,6 +75,12 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 5rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .skills {
+    grid-template-columns: repeat(2, minmax(auto, 1fr));
+    grid-template-rows: repeat(2, minmax(auto, 1fr));
   }
 }
 @media screen and (max-width: 800px) {

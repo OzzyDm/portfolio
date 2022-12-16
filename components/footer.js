@@ -10,6 +10,7 @@ function Footer() {
           href="https://www.instagram.com/oguzhan.demiraslan/"
           target="_blank"
           className={classes.icon}
+          aria-label="Instagram"
         >
           <FaInstagram />
         </a>
@@ -17,6 +18,7 @@ function Footer() {
           href="https://www.linkedin.com/in/oguzhan-demiraslan-27481625a/"
           target="_blank"
           className={classes.icon}
+          aria-label="Linkedin"
         >
           <FaLinkedin />
         </a>
@@ -24,6 +26,7 @@ function Footer() {
           href="https://github.com/OzzyDm"
           target="_blank"
           className={classes.icon}
+          aria-label="Github"
         >
           <FaGithub />
         </a>
