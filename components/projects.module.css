@@ -87,8 +87,18 @@
 .git {
   color: black;
   transition: all 0.2s;
+  display: inline-block;
 }
 .git:hover {
+  transform: scale(1.5);
+}
+.link {
+  color: black;
+  transition: all 0.2s;
+  display: inline-block;
+  margin-right: 1rem;
+}
+.link:hover {
   transform: scale(1.5);
 }
 

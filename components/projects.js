@@ -2,7 +2,7 @@ import classes from "./projects.module.css";
 import "aos/dist/aos.css";
 import Aos from "aos";
 import { useEffect } from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 function Projects() {
   useEffect(() => {
@@ -56,7 +56,10 @@ function Projects() {
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
-          <a href="https://github.com/OzzyDm/WeatherApp" target="_blank">
+          <a
+            href="https://weatherapp-production-a338.up.railway.app/"
+            target="_blank"
+          >
             <img className={classes.image} src="images/weather.png"></img>
           </a>
           <h3 className={classes.h3}>WeatherApp</h3>
@@ -66,17 +69,29 @@ function Projects() {
           </p>
           <div className={classes.info}>
             <p className={classes.tools}>Express Node.js</p>
-            <a
-              href="https://github.com/OzzyDm/WeatherApp"
-              target="_blank"
-              className={classes.git}
-            >
-              <FaGithub />
-            </a>
+            <div>
+              <a
+                href="https://weatherapp-production-a338.up.railway.app/"
+                target="_blank"
+                className={classes.link}
+              >
+                <FaExternalLinkAlt />
+              </a>
+              <a
+                href="https://github.com/OzzyDm/WeatherApp"
+                target="_blank"
+                className={classes.git}
+              >
+                <FaGithub />
+              </a>
+            </div>
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
-          <a href="https://github.com/OzzyDm/expense-tracker" target="_blank">
+          <a
+            href="https://glittery-pastelito-947428.netlify.app/"
+            target="_blank"
+          >
             <img className={classes.image} src="images/expense.png"></img>
           </a>
           <h3 className={classes.h3}>Expense Tracker</h3>
@@ -87,17 +102,29 @@ function Projects() {
           </p>
           <div className={classes.info}>
             <p className={classes.tools}>React</p>
-            <a
-              href="https://github.com/OzzyDm/expense-tracker"
-              target="_blank"
-              className={classes.git}
-            >
-              <FaGithub />
-            </a>
+            <div>
+              <a
+                href="https://glittery-pastelito-947428.netlify.app/"
+                target="_blank"
+                className={classes.link}
+              >
+                <FaExternalLinkAlt />
+              </a>
+              <a
+                href="https://github.com/OzzyDm/expense-tracker"
+                target="_blank"
+                className={classes.git}
+              >
+                <FaGithub />
+              </a>
+            </div>
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
-          <a href="https://github.com/OzzyDm/food-order-app" target="_blank">
+          <a
+            href="https://starlit-entremet-ffb434.netlify.app/"
+            target="_blank"
+          >
             <img className={classes.image} src="images/foodapp.png"></img>
           </a>
           <h3 className={classes.h3}>Food Order App</h3>
@@ -108,17 +135,26 @@ function Projects() {
           </p>
           <div className={classes.info}>
             <p className={classes.tools}>React Firebase</p>
-            <a
-              href="https://github.com/OzzyDm/food-order-app"
-              target="_blank"
-              className={classes.git}
-            >
-              <FaGithub />
-            </a>
+            <div>
+              <a
+                href="https://starlit-entremet-ffb434.netlify.app/"
+                target="_blank"
+                className={classes.link}
+              >
+                <FaExternalLinkAlt />
+              </a>
+              <a
+                href="https://github.com/OzzyDm/food-order-app"
+                target="_blank"
+                className={classes.git}
+              >
+                <FaGithub />
+              </a>
+            </div>
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
-          <a href="https://github.com/OzzyDm/quotes-react-app" target="_blank">
+          <a href="https://roaring-kitsune-ee4b68.netlify.app/" target="_blank">
             <img className={classes.image} src="images/quotes.png"></img>
           </a>
           <h3 className={classes.h3}>Quotes</h3>
@@ -129,13 +165,22 @@ function Projects() {
           </p>
           <div className={classes.info}>
             <p className={classes.tools}>React Firebase</p>
-            <a
-              href="https://github.com/OzzyDm/quotes-react-app"
-              target="_blank"
-              className={classes.git}
-            >
-              <FaGithub />
-            </a>
+            <div>
+              <a
+                href="https://roaring-kitsune-ee4b68.netlify.app/"
+                target="_blank"
+                className={classes.link}
+              >
+                <FaExternalLinkAlt />
+              </a>
+              <a
+                href="https://github.com/OzzyDm/quotes-react-app"
+                target="_blank"
+                className={classes.git}
+              >
+                <FaGithub />
+              </a>
+            </div>
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
@@ -162,66 +207,92 @@ function Projects() {
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
-          <a
-            href="https://github.com/OzzyDm/natural-tours-page"
-            target="_blank"
-          >
+          <a href="https://profound-dango-b6e469.netlify.app/" target="_blank">
             <img className={classes.image} src="images/natours.png"></img>
           </a>
           <h3 className={classes.h3}>Natural Tours Page</h3>
           <p className={classes.desc}>
-            A page where you can find natural tours. Built with Sass.
+            A page where you can find natural tours. Built with Sass. No
+            JavaScript has been used for this project and the links lead to
+            nowhere.
           </p>
           <div className={classes.info}>
             <p className={classes.tools}>Sass</p>
-            <a
-              href="https://github.com/OzzyDm/natural-tours-page"
-              target="_blank"
-              className={classes.git}
-            >
-              <FaGithub />
-            </a>
+            <div>
+              <a
+                href="https://profound-dango-b6e469.netlify.app/"
+                target="_blank"
+                className={classes.link}
+              >
+                <FaExternalLinkAlt />
+              </a>
+              <a
+                href="https://github.com/OzzyDm/natural-tours-page"
+                target="_blank"
+                className={classes.git}
+              >
+                <FaGithub />
+              </a>
+            </div>
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
-          <a
-            href="https://github.com/OzzyDm/trillo-booking-page"
-            target="_blank"
-          >
+          <a href="https://creative-gelato-5dbd5e.netlify.app/" target="_blank">
             <img className={classes.image} src="images/trillo.png"></img>
           </a>
           <h3 className={classes.h3}>Trillo Booking Page</h3>
           <p className={classes.desc}>
-            A page where you can find hotels. Built with Sass.
+            A page where you can find hotels. Built with Sass. No JavaScript has
+            been used for this project and the links lead to nowhere.
           </p>
           <div className={classes.info}>
             <p className={classes.tools}>Sass</p>
-            <a
-              href="https://github.com/OzzyDm/trillo-booking-page"
-              target="_blank"
-              className={classes.git}
-            >
-              <FaGithub />
-            </a>
+            <div>
+              <a
+                href="https://creative-gelato-5dbd5e.netlify.app/"
+                target="_blank"
+                className={classes.link}
+              >
+                <FaExternalLinkAlt />
+              </a>
+              <a
+                href="https://github.com/OzzyDm/trillo-booking-page"
+                target="_blank"
+                className={classes.git}
+              >
+                <FaGithub />
+              </a>
+            </div>
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
-          <a href="https://github.com/OzzyDm/nexter-page" target="_blank">
+          <a href="https://jazzy-strudel-e94da6.netlify.app/" target="_blank">
             <img className={classes.image} src="images/nexter.png"></img>
           </a>
           <h3 className={classes.h3}>Nexter Page</h3>
           <p className={classes.desc}>
-            A page where you can find your dream home. Built with Sass.
+            A page where you can find your dream home. Built with Sass. No
+            JavaScript has been used for this project and the links lead to
+            nowhere.
           </p>
           <div className={classes.info}>
             <p className={classes.tools}>Sass</p>
-            <a
-              href="https://github.com/OzzyDm/nexter-page"
-              target="_blank"
-              className={classes.git}
-            >
-              <FaGithub />
-            </a>
+            <div>
+              <a
+                href="https://jazzy-strudel-e94da6.netlify.app/"
+                target="_blank"
+                className={classes.link}
+              >
+                <FaExternalLinkAlt />
+              </a>
+              <a
+                href="https://github.com/OzzyDm/nexter-page"
+                target="_blank"
+                className={classes.git}
+              >
+                <FaGithub />
+              </a>
+            </div>
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
