@@ -234,10 +234,7 @@ function Projects() {
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
-          <a
-            href="https://github.com/OzzyDm/nextjs-meeting-app"
-            target="_blank"
-          >
+          <a href="https://nextjs-meeting-app-ozkm.vercel.app/" target="_blank">
             <img
               className={classes.image}
               src="images/meeting.png"
@@ -251,14 +248,24 @@ function Projects() {
           </p>
           <div className={classes.info}>
             <p className={classes.tools}>React Next.js MongoDB</p>
-            <a
-              href="https://github.com/OzzyDm/nextjs-meeting-app"
-              target="_blank"
-              className={classes.git}
-              aria-label="Github code page"
-            >
-              <FaGithub />
-            </a>
+            <div>
+              <a
+                href="https://nextjs-meeting-app-ozkm.vercel.app/"
+                target="_blank"
+                className={classes.link}
+                aria-label="Project page"
+              >
+                <FaExternalLinkAlt />
+              </a>
+              <a
+                href="https://github.com/OzzyDm/nextjs-meeting-app"
+                target="_blank"
+                className={classes.git}
+                aria-label="Github code page"
+              >
+                <FaGithub />
+              </a>
+            </div>
           </div>
         </div>
         <div className={classes.project} data-aos="fade-up">
