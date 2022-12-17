@@ -49,16 +49,16 @@
 }
 
 .first {
-  animation-name: moveLeft;
+  animation-name: moveDown;
   animation-duration: 1s;
   animation-delay: 1s;
   animation-fill-mode: backwards;
 }
 
 .second {
-  animation-name: moveRight;
+  animation-name: moveDown;
   animation-duration: 1s;
-  animation-delay: 1s;
+  animation-delay: 1.5s;
   animation-fill-mode: backwards;
 }
 
@@ -78,7 +78,7 @@
 @keyframes moveLeft {
   0% {
     opacity: 0;
-    transform: translatex(-10rem);
+    transform: translatex(10rem);
   }
   80% {
     transform: translatex(1rem);
