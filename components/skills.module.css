@@ -24,7 +24,13 @@
   margin: 5rem;
   border-radius: 3rem;
   justify-self: center;
+  transition: all 0.2s;
 }
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
 .express {
   display: inline-block;
   height: 15rem;
@@ -39,15 +45,12 @@
   font-size: 2rem;
   text-align: center;
   opacity: 0;
+  width: 100%;
 }
 
 .center {
   text-align: center;
   transition: all 0.2s;
-}
-
-.center:hover {
-  transform: scale(1.1);
 }
 .center:hover .name {
   opacity: 1;
@@ -80,12 +83,12 @@
 @media screen and (max-width: 1200px) {
   .skills {
     grid-template-columns: repeat(2, minmax(auto, 1fr));
-    grid-template-rows: repeat(2, minmax(auto, 1fr));
+    grid-template-rows: minmax(auto, 1fr);
   }
 }
 @media screen and (max-width: 800px) {
   .skills {
     grid-template-columns: repeat(1, minmax(auto, 1fr));
-    grid-template-rows: repeat(2, minmax(auto, 1fr));
+    grid-template-rows: minmax(auto, 1fr);
   }
 }
