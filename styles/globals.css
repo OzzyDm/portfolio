@@ -11,12 +11,16 @@ body {
   font-family: "Open Sans", cursive;
   width: 100%;
   height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 html {
   width: 100%;
   font-size: 62.5%;
   scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 1600px) {
