@@ -9,7 +9,7 @@
 
 .social {
   background-color: rgb(36, 36, 36);
-  clip-path: polygon(0 95%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 90%, 100% 0%, 100% 100%, 0% 100%);
   color: #fff;
   font-size: 5rem;
   display: flex;

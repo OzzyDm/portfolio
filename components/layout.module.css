@@ -13,7 +13,7 @@
   margin-left: 7rem;
   cursor: pointer;
   transition: all 0.2s;
-  font-size: 3rem;
+  font-size: 2rem;
   text-decoration: none;
   display: inline-block;
   color: #fff;
@@ -32,11 +32,4 @@
 .icon {
   font-size: 2rem;
   margin-right: 1rem;
-}
-
-@media screen and (max-width: 500px) {
-  .link {
-    font-size: 1rem;
-    margin-left: 4rem;
-  }
 }
