@@ -24,7 +24,7 @@
 }
 
 .label {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
 }
 
 .input {
@@ -44,7 +44,7 @@
 }
 
 .btn {
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: 1rem 2rem;
   border-radius: 5rem;
   transition: transform 0.2s;
@@ -69,25 +69,6 @@
 }
 
 .sent {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   padding-top: 2rem;
 }
-/* @media screen and (max-width: 1200px) {
-  .title {
-    margin-top: 35rem;
-  }
-}
-@media screen and (max-width: 800px) {
-  .title {
-    margin-top: -70rem;
-  }
-
-  .btn {
-    margin-bottom: -30rem;
-  }
-}
-@media screen and (max-width: 600px) {
-  .title {
-    margin-top: 90-rem;
-  }
-} */
