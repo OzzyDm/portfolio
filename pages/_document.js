@@ -10,7 +10,10 @@ class MyDocument extends Document {
             name="description"
             content="You can find more information about me, my projects and more..."
           />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1"
+          />
         </Head>
         <body>
           <Main />
