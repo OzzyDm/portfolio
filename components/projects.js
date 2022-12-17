@@ -8,6 +8,7 @@ function Projects() {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
+
   return (
     <div className={classes.container} id="projects">
       <h2 className={classes.title} data-aos="fade-up">

@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 import classes from "./contact.module.css";
 import Aos from "aos";
@@ -6,9 +6,17 @@ import "aos/dist/aos.css";
 
 const Contact = () => {
   const form = useRef();
+  const [messageSent, setMessageSent] = useState(false);
+  const [firstName, setFirstName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    setFirstName("");
+    setEmail("");
+    setMessage("");
 
     emailjs
       .sendForm(
@@ -20,6 +28,10 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setMessageSent(true);
+          setTimeout(function () {
+            setMessageSent(false);
+          }, 5000);
         },
         (error) => {
           console.log(error.text);
@@ -44,6 +56,8 @@ const Contact = () => {
             id="name"
             className={classes.input}
             name="user_name"
+            onChange={(event) => setFirstName(event.target.value)}
+            value={firstName}
             required
           />
           <label htmlFor="email" className={classes.label}>
@@ -54,6 +68,8 @@ const Contact = () => {
             id="email"
             className={classes.input}
             name="user_email"
+            onChange={(event) => setEmail(event.target.value)}
+            value={email}
             required
           />
           <label htmlFor="message" className={classes.label}>
@@ -64,11 +80,18 @@ const Contact = () => {
             className={classes.input}
             rows="5"
             name="message"
+            onChange={(event) => setMessage(event.target.value)}
+            value={message}
             required
           />
           <button className={classes.btn} type="submit" value="Send">
             Send Message
           </button>
+          {messageSent && (
+            <p className={classes.sent} id="sent">
+              Message Sent!
+            </p>
+          )}
         </form>
       </div>
     </div>
