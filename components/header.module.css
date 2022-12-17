@@ -6,7 +6,7 @@
       rgba(19, 18, 18, 0.8)
     ),
     url(../public/images/header.jpg);
-  background-position: unset;
+  background-position: center;
   background-size: cover;
   object-fit: fill;
   height: 100vh;
