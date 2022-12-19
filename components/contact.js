@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 const Contact = () => {
   const form = useRef();
-  const [messageSent, setMessageSent] = useState(false);
+  const [messageSent, setMessageSent] = useState(null);
   const [firstName, setFirstName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
