@@ -71,4 +71,6 @@
 .sent {
   font-size: 1.6rem;
   padding-top: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
