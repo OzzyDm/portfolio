@@ -270,6 +270,45 @@ function Projects() {
         </div>
         <div className={classes.project} data-aos="fade-up">
           <a
+            href="https://nextjs-blog-app-gules.vercel.app/"
+            target="_blank"
+            aria-label="Project page"
+          >
+            <img
+              className={classes.image}
+              src="images/blog.png"
+              alt="project image"
+            ></img>
+          </a>
+          <h3 className={classes.h3}>Blog Page</h3>
+          <p className={classes.desc}>
+            Blog page website. You can see the details of posts on their
+            individual pages.
+          </p>
+          <div className={classes.info}>
+            <p className={classes.tools}>React Next.js</p>
+            <div>
+              <a
+                href="https://nextjs-blog-app-gules.vercel.app/"
+                target="_blank"
+                className={classes.link}
+                aria-label="Project page"
+              >
+                <FaExternalLinkAlt />
+              </a>
+              <a
+                href="https://github.com/OzzyDm/nextjs-blog-app"
+                target="_blank"
+                className={classes.git}
+                aria-label="Github code page"
+              >
+                <FaGithub />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className={classes.project} data-aos="fade-up">
+          <a
             href="https://profound-dango-b6e469.netlify.app/"
             target="_blank"
             aria-label="Project page"
@@ -385,33 +424,6 @@ function Projects() {
                 <FaGithub />
               </a>
             </div>
-          </div>
-        </div>
-        <div className={classes.project} data-aos="fade-up">
-          <a
-            href="https://github.com/OzzyDm/Twitter-homepage-clone"
-            target="_blank"
-          >
-            <img
-              className={classes.image}
-              src="images/twitter.png"
-              alt="project image"
-            ></img>
-          </a>
-          <h3 className={classes.h3}>Twitter Home Page Clone</h3>
-          <p className={classes.desc}>
-            Twitter homepage clone - to practice HTML/CSS.
-          </p>
-          <div className={classes.info}>
-            <p className={classes.tools}>Html Css</p>
-            <a
-              href="https://github.com/OzzyDm/Twitter-homepage-clone"
-              target="_blank"
-              className={classes.git}
-              aria-label="Github code page"
-            >
-              <FaGithub />
-            </a>
           </div>
         </div>
       </div>
